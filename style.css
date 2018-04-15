@@ -1,0 +1,64 @@
+h1 {
+	border: white;
+	text-align: center;
+	padding: 50px 50px 50px 50px;
+	background-color: rgb(58,189,160);
+	color: white;
+	font-size: 2cm;
+	margin: 0px;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 0.75cm;
+	padding: 20px;
+	margin: 0px;
+	border-radius: 50px;
+	border: black;
+	text-decoration: underline;
+}
+
+
+main{
+	margin: 0px;
+    padding: 0xp;
+    background: url(http://www.fondosni.com/images/2013-04-28/Papel%20piedra%20y%20tijera-134346.jpg) center top;
+    background-size: auto 800px, contain;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 10px;
+    height:700px;
+    opacity:0.90;
+}
+
+button{
+	padding: 1.5rem;
+    margin: 1rem;
+    background-color: var(--main-color);
+    border: .2rem solid var(--main-color);
+    color: white;
+    font-size: 2rem;
+}
+
+button:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+    transform: scale(1.1);
+}
+
+.hidden{
+    display: none;
+}
+
+.info{
+    margin-top: 6rem;
+    padding-top: 180px;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.score{
+    font-weight: bold;
+    font-size: 30px;
+}

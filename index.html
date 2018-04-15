@@ -3,22 +3,36 @@
 
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 <body>
 	<!-- Start -->
 	<h1> Rock, Paper, Scissors!</h1>
-	<h2 class="Round"> Win 5 rounds: Select Rock, Paper or Scissors and let the games begin!"</h2>
-	
-	<button type="button" class="Start">Start a new Game!</button>
-	<div class="Hide Start Button">
-		<button class="Rock">Rock</button>
-		<button class="Paper">Paper</button>
-		<button class="Scissors">Scissors</button>
-	</div>
 
+	
+	<main>
+	<h2 class="Round"> Win 5 rounds: Select Rock, Paper or Scissors and let the games begin!"</h2>
+
+	<div>
+		<!--<img class="BackgroundImage" src="https://i.imgur.com/NXq3wqg.png" alt=""> -->
+	<button class="reset">Start a new Game!</button>
+	<div class="Hide Start Button">
+		<button class="paper">Paper</button>
+		<button class="rock">Rock</button>
+		<button class="scissors">Scissors</button>
+	</div>
+    
+	<div>
 	<p class="info"></p>
 	<p class="score"></p>
+	</div>
+
+	<script src="app.js"></script>
+
+	</div>
+
+</main>
 
 </body>
 
